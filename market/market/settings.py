@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'profiles.apps.ProfilesConfig', #permite ejecutar archivos de migraciòn para app profiles
+    #'products.apps.ProductsConfig', #permite ejecutar archivos de migraciòn para app products
    ]
 
 
